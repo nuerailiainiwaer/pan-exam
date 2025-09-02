@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Question</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="header"><div class="title">Add a Question</div></div>
+  <div class="container">
+    <div id="back"></div>
+    <div class="card">
+      <div class="label">Question Topic</div>
+      <input id="topic" class="input" placeholder="Enter question topic">
+      <div class="label">Options</div>
+      <div class="row">
+        <input id="optA" class="input" placeholder="A">
+        <label><input type="radio" name="correct" value="A"> Correct</label>
+      </div>
+      <div class="row">
+        <input id="optB" class="input" placeholder="B">
+        <label><input type="radio" name="correct" value="B"> Correct</label>
+      </div>
+      <div class="row">
+        <input id="optC" class="input" placeholder="C">
+        <label><input type="radio" name="correct" value="C"> Correct</label>
+      </div>
+      <div class="row">
+        <input id="optD" class="input" placeholder="D">
+        <label><input type="radio" name="correct" value="D"> Correct</label>
+      </div>
+      <div class="label">Image URL (optional)</div>
+      <input id="imageUrl" class="input" placeholder="http://... (optional)">
+      <div class="row" style="margin-top:12px">
+        <button id="addBtn" class="btn primary">Add</button>
+        <a class="btn" href="./admin-dashboard.html">Admin Home</a>
+      </div>
+      <div id="msg" class="small"></div>
+    </div>
+  </div>
+  <script src="../js/common.js"></script>
+  <script src="../js/admin-add-question.js"></script>
+</body>
+</html>

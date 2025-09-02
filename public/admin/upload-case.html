@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Case Study</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="header"><div class="title">Upload Case Study</div></div>
+  <div class="container">
+    <div id="back"></div>
+    <div class="card">
+      <div class="badge" id="cCount">Cases: 0</div>
+      <div class="label">Case text (required)</div>
+      <textarea id="text" class="input" rows="8" placeholder="Describe the case..."></textarea>
+      <div class="label">Image URL (optional)</div>
+      <input id="imageUrl" class="input" placeholder="http://... (optional)">
+      <div class="row" style="margin-top:12px">
+        <button id="upload" class="btn primary">Upload</button>
+        <a class="btn" href="./admin-dashboard.html">Admin Home</a>
+      </div>
+      <div id="msg" class="small"></div>
+    </div>
+  </div>
+  <script src="../js/common.js"></script>
+  <script src="../js/admin-upload-case.js"></script>
+</body>
+</html>

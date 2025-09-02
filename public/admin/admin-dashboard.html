@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="header"><div class="title">Admin Dashboard</div></div>
+  <div class="container">
+    <div class="card">
+      <div class="row">
+        <span class="badge" id="usersCount">Users: 0</span>
+        <span class="badge" id="questionsCount">Questions: 0</span>
+        <span class="badge" id="casesCount">Cases: 0</span>
+        <span class="badge" id="commentsCount">Comments: 0</span>
+      </div>
+      <hr>
+      <div class="grid">
+        <a class="btn" href="./add-question.html">➕ Add Question</a>
+        <a class="btn" href="./delete-question.html">🗑️ Delete Question</a>
+        <a class="btn" href="./add-user.html">👤 Add User</a>
+        <a class="btn" href="./delete-user.html">👥 Delete User</a>
+        <a class="btn" href="./cases.html">📂 Case Studies</a>
+        <a class="btn" href="./upload-case.html">⬆️ Upload Case</a>
+        
+      </div>
+      <hr>
+      
+      <button class="btn" onclick="logout()" style="float:right">Logout</button>
+    </div>
+  </div>
+  <script src="../js/common.js"></script>
+  <script src="../js/admin-dashboard.js"></script>
+</body>
+</html>

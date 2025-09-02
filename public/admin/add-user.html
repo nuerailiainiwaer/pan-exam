@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add User</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="header"><div class="title">Add New User</div></div>
+  <div class="container">
+    <div id="back"></div>
+    <div class="card">
+      <div class="label">Username</div>
+      <input id="username" class="input" placeholder="new user">
+      <div class="label">Password</div>
+      <input id="password" type="password" class="input" placeholder="password">
+      <div class="row" style="margin-top:12px">
+        <button id="add" class="btn primary">Confirm</button>
+        <a class="btn" href="./admin-dashboard.html">Admin Home</a>
+      </div>
+      <div id="msg" class="small"></div>
+    </div>
+  </div>
+  <script src="../js/common.js"></script>
+  <script src="../js/admin-add-user.js"></script>
+</body>
+</html>
